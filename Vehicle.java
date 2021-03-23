@@ -1,6 +1,6 @@
 class Vehicle
 {
-  
+  //using constructor
   Vehicle(String brand,int cost)
   {
    System.out.println("Brand:"+brand+"Cost:"+cost);
@@ -9,4 +9,5 @@ class Vehicle
    {
     Vehicle v1=new Vehicle("Audi",70000);
    }
+  
 }
